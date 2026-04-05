@@ -1,36 +1,21 @@
 body {
     margin: 0;
     font-family: Arial, sans-serif;
-    color: white;
     text-align: center;
+    background-color: #1e1e1e;
+    color: white;
 }
 
-/* ESCENAS */
 .escena {
-    height: 100vh;
-    background-size: cover;
-    background-position: center;
-    padding-top: 50px;
+    padding: 50px 20px;
 }
 
-/* Fondos */
-.escena1 { background-image: url("https://images.unsplash.com/photo-1508098682722-e99c643e7f3b"); }
-.escena2 { background-image: url("https://images.unsplash.com/photo-1517649763962-0c623066013b"); }
-.escena3 { background-image: url("https://images.unsplash.com/photo-1508609349937-5ec4ae374ebf"); }
-.escena4 { background-image: url("https://images.unsplash.com/photo-1517836357463-d25dfeac3438"); }
-.escena5 { background-image: url("https://images.unsplash.com/photo-1521417531039-9e3b5c8d9c3b"); }
-
-/* Personaje */
 .personaje img {
-    width: 200px;
-    transition: transform 0.3s;
+    width: 300px;
+    border-radius: 15px;
+    margin-top: 20px;
 }
 
-.personaje img:hover {
-    transform: scale(1.1);
-}
-
-/* Texto */
 .dialogo {
     background: rgba(0,0,0,0.7);
     padding: 15px;
@@ -39,18 +24,12 @@ body {
     margin: 20px auto;
 }
 
-/* Botón */
 .boton {
     display: inline-block;
-    margin-top: 20px;
+    margin-top: 15px;
     padding: 10px 20px;
     background: orange;
     color: white;
     text-decoration: none;
     border-radius: 10px;
-}
-.personaje img {
-    width: 300px;
-    border-radius: 20px;
-    margin-top: 20px;
 }
