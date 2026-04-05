@@ -49,3 +49,8 @@ body {
     text-decoration: none;
     border-radius: 10px;
 }
+.personaje img {
+    width: 300px;
+    border-radius: 20px;
+    margin-top: 20px;
+}
